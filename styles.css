@@ -1,0 +1,94 @@
+div {
+    font-family: "Roboto", sans-serif;
+}
+html, body {
+    background-color: #1F2937;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+.header {
+    background: #1F2937;
+    height: 30px;
+    padding: 3px;
+    margin: 20px;
+}
+.flex {
+    display: flex;
+}
+.top {
+    margin-top: 7px;
+}
+.bold {
+    color: #F9FAF8;
+    flex: 1;
+    font-size: 24px;
+}
+.item {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
+}
+.first-half {
+    background-color: #1F2937;
+    padding: 45px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-color: #1F2937;
+    height: 400px;
+    width: 100%;
+}
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.second-half {
+    height: 900px;
+    width: 100%;
+    flex-direction: column;
+}
+.flex-two {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.color-one {
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+.color-two {
+    background-color: #E5E5EB;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+.item-two{
+    font-size: 18px;
+    color: #1F2937;
+    flex: 1 1 auto;
+}
+.one-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+.footer {
+    background: #1F2937;
+    
+    height: 30px;
+}
+.footer .item{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #E5E7EB;
+}
