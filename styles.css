@@ -10,7 +10,7 @@ html, body {
 }
 .header {
     background: #1F2937;
-    height: 30px;
+    height: 70px;
     padding: 3px;
     margin: 20px;
 }
@@ -29,14 +29,16 @@ html, body {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
+    margin-right: 10px;
 }
 .first-half {
     background-color: #1F2937;
     padding: 45px;
+    padding-top: 1px;
     margin-right: 0px;
     margin-left: 0px;
     border-color: #1F2937;
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 .hero {
