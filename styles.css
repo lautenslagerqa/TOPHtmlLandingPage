@@ -10,7 +10,7 @@ html, body {
 }
 .header {
     background: #1F2937;
-    height: 30px;
+    height: 70px;
     padding: 3px;
     margin: 20px;
 }
@@ -29,14 +29,16 @@ html, body {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
+    margin-right: 10px;
 }
 .first-half {
     background-color: #1F2937;
     padding: 45px;
+    padding-top: 1px;
     margin-right: 0px;
     margin-left: 0px;
     border-color: #1F2937;
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 .hero {
@@ -49,20 +51,27 @@ html, body {
     color: #E5E7EB;
 }
 .second-half {
-    height: 900px;
+    height: auto;
     width: 100%;
     flex-direction: column;
 }
 .flex-two {
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 75%;
     align-items: center;
     justify-content: center;
+
+}
+.flex-vert {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+   
 }
 .color-one {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 50px;
     flex: 1 1 auto;
 }
 .color-two {
@@ -91,4 +100,12 @@ html, body {
     font-size: 18px;
     margin-top: 10px;
     color: #E5E7EB;
+}
+.squares {
+    border: 2px solid #3882f6;
+    border-radius: 15px; 
+    width: 150px;
+    height: 150px;
+    flex: 1 1 auto;
+    margin: 10px 20px;
 }
