@@ -1,6 +1,12 @@
 div {
     font-family: "Roboto", sans-serif;
 }
+button {
+    background-color: #1F2937;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
 html, body {
     background-color: #1F2937;
     padding: 0;
