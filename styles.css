@@ -24,15 +24,18 @@ html, body {
     display: flex;
 }
 .top {
-    margin-top: 20px;
-    width: 95%;
+    background: #1F2937;
+    height: 35px;
+    top: 0;
+    padding: 15px;
     position: fixed;
+    width: 100%;
 }
 .bold {
     color: #F9FAF8;
     flex: 1;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 8px;
     
 }
 .item {
@@ -49,7 +52,6 @@ html, body {
     margin-left: 0px;
     border-color: #1F2937;
     height: 350px;
-    width: 100%;
 }
 .hero {
     font-size: 48px;
@@ -86,7 +88,7 @@ html, body {
 }
 .color-two {
     background-color: #E5E5EB;
-    padding: 20px;
+    padding: 50px;
     flex: 1 1 auto;
 }
 .item-two{
