@@ -24,12 +24,13 @@ html, body {
     display: flex;
 }
 .top {
-    margin-top: 7px;
+    margin-top: 20px;
 }
 .bold {
     color: #F9FAF8;
     flex: 1;
     font-size: 24px;
+    margin-top: 20px;
 }
 .item {
     font-size: 18px;
